@@ -32,7 +32,7 @@ function setHeight()
 function newwin()
 {
 if (self != top) 
-top.location.href="vhsesay.htm";
+top.location.href="dominic.htm";
 }
 function IsNumeric(sText)
 {
@@ -110,7 +110,7 @@ function NavigateAjax(regno)
 		}
 		if((regno > 10000  ) && (regno < 1925351 ))
 		{
-			var url="vhsesay.asp?treg="+regno+"&dob="+dob;
+			var url="dominic.asp?treg="+regno+"&dob="+dob;
 			url=url+"&sid="+Math.random();
 			xmlHttp.onreadystatechange=stateChanged ;
 			xmlHttp.open("GET",url,true);
@@ -119,7 +119,7 @@ function NavigateAjax(regno)
 		else
 		{
 			alert ("Please enter valid Registration number");
-			location.href="vhsesay.htm";
+			location.href="dominic.htm";
 		} 
 		
 	}
@@ -196,7 +196,8 @@ function movetoNext(current, nextFieldID)
 		<STYLE> <!--
 		D { background-color: #93008E ; color: ffffff ; font-family: verdana ; font-size: 13px }
 .L { background-color: #A95B97 ; color: ffffff ; font-family: verdana ; font-size: 13px }
-.R{ background-color:#996633; color:#3333FF; font-family:verdana ; font-size:13px}
+.R{ background-color:#996633; color:#3333FF; font-family:verdana ;
+ font-size:13px}
 .r1{ background-color:#CDCDCD; color:#000040;font-family:verdana ; font-size:13px}
 .r2{ background-color:#DEDEEF; color:#000040;font-family:verdana ; font-size:13px}
 .r3{ background-color:#CFCFE7; color:#000040;font-family:verdana ; font-size:13px}
@@ -262,7 +263,7 @@ function movetoNext(current, nextFieldID)
 							</tr>
 							<tr>
 								<td colspan="3" align="right">
-                                    <a href="swr_vhsesay.htm">
+                                    <a href="swr_dominic.htm">
                                     	<img src=schoolwise.gif border=0 width=24px title="School Wise Results">
                                     </a>&nbsp;&nbsp;&nbsp;&nbsp;
                                 </td>
